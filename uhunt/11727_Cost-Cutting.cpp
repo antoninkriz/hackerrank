@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int t, a, b, c;
+
 /**
  * 11727 - Cost Cutting
  */
@@ -9,14 +11,14 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t;
     cin >> t;
-
-    for (int i = 0; i < t; i++) {
-      int a, b, c;
+    
+    for (int i = 1; i <= t; i++) {
       cin >> a >> b >> c;
-      printf("Case %d: %d\n", i + 1, max(min(a,b), min(max(a,b),c)));
+      cout << "Case " << i << ": " << max(min(a,b), min(max(a,b),c)) << "\n";
     }
+
+    cout << flush;
     
     return 0;
 }
