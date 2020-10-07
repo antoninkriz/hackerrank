@@ -1,3 +1,3 @@
-# My HackerRank solutions
+# My leetcode solutions
 
-Repository with my solutions for some HackerRank challenges
+Repository with my solutions for some challenges from HackerRank, uHunt, CodeForces and other places
