@@ -14,7 +14,7 @@ int main() {
       double angleX = acos((pow(y, 2) + pow(z, 2) - pow(x, 2)) / (2 * y * z));
       double rB = x / (2 * sin(angleX));    
 
-      double s = (x + y + z) / 2;
+      double s = (x + y + z) / 2.0;
       double rS = sqrt(s * (s - x) * (s - y) * (s - z)) / s;
 
       double sB = M_PI * (rB * rB);
